@@ -7,6 +7,10 @@ set(DCAIQ_LIBS
     ${CMAKE_SOURCE_DIR}/lib/librkisp_api.so
     ${CMAKE_SOURCE_DIR}/lib/libdcaiq.so
     ${CMAKE_SOURCE_DIR}/lib/libdcaiq_c.so
+    ${CMAKE_SOURCE_DIR}/lib/librockchip_mpp.so
+    ${CMAKE_SOURCE_DIR}/lib/librockchip_mpp.so.0
+    ${CMAKE_SOURCE_DIR}/lib/librockchip_mpp.so.1
+    ${CMAKE_SOURCE_DIR}/lib/librockx.so
 )
 
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/include/rkaiq DESTINATION "include")
